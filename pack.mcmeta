@@ -1,0 +1,21 @@
+{
+  "pack": {
+    "pack_format": 7,
+    "description": "desactiver le dp vanilla"
+  },"filter": {
+    "block": [
+        {
+            "namespace": "minecraft",
+            "path": "recipe/.*"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "advancement/.*"
+        },
+        {
+            "namespace": "minecraft",
+            "path": "loot_table/.*"
+        }
+    ]
+}
+}

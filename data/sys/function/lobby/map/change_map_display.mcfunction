@@ -1,0 +1,2 @@
+execute if score map parameter matches 0 run item replace entity @s armor.head with iron_horse_armor
+execute if score map parameter matches 1 run item replace entity @s armor.head with golden_horse_armor

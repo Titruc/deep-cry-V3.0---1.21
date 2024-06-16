@@ -1,0 +1,1 @@
+execute if score inlobby parameter matches 1 run function sys:lobby/lobby_tick

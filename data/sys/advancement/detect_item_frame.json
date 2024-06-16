@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "item_used_on_block": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "team": "player"
+        },
+        "entity": {
+          "type": "minecraft:item_frame",
+          "nbt": "{Tags:[\"bone\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "sys:main/bone/raycast/raycast_load"
+  }
+}

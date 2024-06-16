@@ -1,0 +1,2 @@
+execute if score map parameter matches 0 run data modify entity @s text set value '{"text":"mushroom field", "color" : "#468499"}'
+execute if score map parameter matches 1 run data modify entity @s text set value '{"text":"heart of the city", "color" : "#468499"}'
