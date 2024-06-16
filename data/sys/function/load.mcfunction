@@ -29,3 +29,8 @@ team modify warden prefix {"text" : ""}
 team modify spectator prefix {"text" : ""}
 
 scoreboard objectives add life dummy
+
+forceload add -41 67 53 145
+
+clear @a
+
