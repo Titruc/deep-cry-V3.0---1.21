@@ -34,3 +34,8 @@ forceload add -41 67 53 145
 
 clear @a
 
+tp @a 21 -22 17 -90 0
+
+kill @e[tag=sculk_display]
+
+scoreboard objectives add sculk_display_timer dummy
