@@ -5,6 +5,9 @@ scoreboard players set map parameter 0
 scoreboard players set inlobby parameter 1
 scoreboard players set map_count parameter 2
 
+scoreboard objectives add shriek_animation_particle dummy
+scoreboard players set @e[type=item_display,tag=aj.shrieker.root] shriek_animation_particle 0
+
 scoreboard objectives add quest dummy
 
 setblock 34 -21 17 minecraft:dark_oak_button[face=wall,facing=south,powered=false]
