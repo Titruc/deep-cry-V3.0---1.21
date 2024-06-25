@@ -12,6 +12,8 @@ scoreboard objectives add death minecraft.custom:minecraft.deaths
 
 scoreboard objectives add quest dummy
 
+scoreboard objectives add map_event dummy
+
 setblock 34 -21 17 minecraft:dark_oak_button[face=wall,facing=south,powered=false]
 
 team add player
@@ -44,3 +46,4 @@ tp @a 21 -22 17 -90 0
 kill @e[tag=sculk_display]
 
 scoreboard objectives add sculk_display_timer dummy
+effect give @a saturation infinite 1 true

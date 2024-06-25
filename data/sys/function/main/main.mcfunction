@@ -1,3 +1,13 @@
+####################################################
+#                                              
+#
+#                Code by Titruc
+#             for Somniumfactory map
+#
+#
+#
+#####################################################
+
 execute as @e[type=marker,tag=skulksens] at @s if block ~ ~ ~ sculk_sensor[sculk_sensor_phase=active] unless entity @e[type=block_display,tag=sculk_display,distance=..1] run function sys:main/sculk/sculk_activated
 
 #sculk display support
@@ -10,3 +20,8 @@ scoreboard players remove @e[type=item_display,tag=aj.shrieker.root, scores={shr
 
 #death count
 execute as @a[scores={team=1}] if score @s death matches 1.. run function sys:main/life/death
+
+effect give @a saturation infinite 1 true
+
+#run map
+execute if score map parameter matches 0 run function sys:mushroom/main

@@ -1,0 +1,1 @@
+return run execute if items entity @e[tag=key] container.0 minecraft:beetroot_seeds[minecraft:custom_data={key:1b}]

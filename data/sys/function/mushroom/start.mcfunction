@@ -24,3 +24,7 @@ item replace entity e33735b8-51c1-4bdf-b22b-50b5835074c1 container.13 with minec
 execute as @a run scoreboard players add nbrofplayer parameter 1
 #execute as @e[type=marker,tag=start_lab] at @s as @e[type=marker,tag=MazeG,distance=1..2.5,tag=!MazeTrue,sort=random,limit=1] run function sysmain:quest/quest_7/lab_gen
 #function sysmain:load_map
+
+#key and door
+item replace entity @e[type=item_frame,tag=key] container.0 with air
+clone 26 14 140 26 12 142 27 -17 139
