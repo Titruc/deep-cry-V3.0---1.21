@@ -7,3 +7,6 @@ execute as @e[type=item_display,tag=sculk_display] if score @s sculk_display_tim
 #shrieker particle
 execute as @e[type=item_display,tag=aj.shrieker.root] at @s run function sys:main/sculk_shrieker/particle
 scoreboard players remove @e[type=item_display,tag=aj.shrieker.root, scores={shriek_animation_particle=1..}] shriek_animation_particle 1 
+
+#death count
+execute as @a[scores={team=1}] if score @s death matches 1.. run function sys:main/life/remove_life
