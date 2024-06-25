@@ -1,0 +1,2 @@
+clear @s beetroot_seeds[custom_data={soul:1b}] 1
+tellraw @a ["",{"selector":"@s","bold":true,"color":"aqua"},{"selector":" ","color":"aqua"},{"text":" as been saved by a ","color":"aqua"},{"text":"soul bottle","bold":true,"color":"aqua"}]

@@ -9,4 +9,4 @@ execute as @e[type=item_display,tag=aj.shrieker.root] at @s run function sys:mai
 scoreboard players remove @e[type=item_display,tag=aj.shrieker.root, scores={shriek_animation_particle=1..}] shriek_animation_particle 1 
 
 #death count
-execute as @a[scores={team=1}] if score @s death matches 1.. run function sys:main/life/remove_life
+execute as @a[scores={team=1}] if score @s death matches 1.. run function sys:main/life/death
