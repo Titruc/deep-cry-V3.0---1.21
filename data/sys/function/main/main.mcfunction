@@ -25,3 +25,5 @@ effect give @a saturation infinite 1 true
 
 #run map
 execute if score map parameter matches 0 run function sys:mushroom/main
+
+execute unless entity @a[scores={team=1}] run function sys:main/end/warden_win

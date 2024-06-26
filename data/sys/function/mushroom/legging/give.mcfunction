@@ -1,1 +1,1 @@
-item replace entity @a[scores={team=1},distance=..5] armor.legs with minecraft:iron_leggings[minecraft:enchantments={levels:{swift_sneak:3}}]
+item replace entity @a[scores={team=1},distance=..5] armor.legs with minecraft:iron_leggings[minecraft:enchantments={levels:{swift_sneak:3}},unbreakable={},attribute_modifiers=[{id:"armor",type:"generic.armor",amount:0,operation:"add_value",slot:"legs"}]]
