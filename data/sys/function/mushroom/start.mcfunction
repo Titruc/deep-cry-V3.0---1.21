@@ -3,6 +3,7 @@ function sys:utils/map/spawn_tp {x:-20, y:-21, z:81,xw : 19, yw : -32, zw : 109,
 #function #sysmain:reload_quest
 
 scoreboard players set _warden_pv_ quest 10
+scoreboard players set _warden_pv_ quest 10
 
 bossbar add warden_pv "Remain quests"
 bossbar set warden_pv players @a
@@ -28,3 +29,5 @@ execute as @a run scoreboard players add nbrofplayer parameter 1
 #key and door
 item replace entity @e[type=item_frame,tag=key] container.0 with air
 clone 26 14 140 26 12 142 27 -17 139
+
+function sys:main/quest/set_quest_list {list:[I;1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],len:20}

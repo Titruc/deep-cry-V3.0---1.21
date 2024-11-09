@@ -47,3 +47,9 @@ kill @e[tag=sculk_display]
 
 scoreboard objectives add sculk_display_timer dummy
 effect give @a saturation infinite 1 true
+
+spawnpoint @a 21 -22 17
+scoreboard players set inlobby parameter 1
+gamemode adventure @a
+
+execute as @a run attribute @s generic.armor base set 0

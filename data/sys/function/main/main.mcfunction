@@ -20,7 +20,6 @@ scoreboard players remove @e[type=item_display,tag=aj.shrieker.root, scores={shr
 
 #death count
 execute as @a[scores={team=1}] if score @s death matches 1.. run function sys:main/life/death
-
 effect give @a saturation infinite 1 true
 
 #run map

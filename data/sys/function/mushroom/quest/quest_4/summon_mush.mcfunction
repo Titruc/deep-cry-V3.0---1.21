@@ -1,0 +1,2 @@
+execute at @s run summon minecraft:villager ~ ~-1.5 ~ {Tags:["mush_quest_4"],NoGravity:1b,Silent:1b,DeathTime:0s,NoAI:1b,ArmorItems:[{},{},{},{id:"minecraft:red_mushroom",components:{"minecraft:custom_model_data":2},count:1}],ArmorDropChances:[0.085f,0.085f,0.085f,0.0f],Invulnerable:1b,active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:999999,show_particles:0b}]}
+return 1

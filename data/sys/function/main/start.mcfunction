@@ -1,5 +1,4 @@
-#life stuff
-execute as @a[scores={team=1}] run function sys:main/start_as_player
+
 
 #black shadow
 title @a times 1 1 10
@@ -18,6 +17,9 @@ stopsound @a ambient minecraft:music_disc.11
 
 #spectator stuff
 execute as @a[scores={team=0}] run function sys:main/start_as_spectator
+
+#life stuff
+execute as @a[scores={team=1}] run function sys:main/start_as_player
 
 say hhhaaaaaa
 #save for later
